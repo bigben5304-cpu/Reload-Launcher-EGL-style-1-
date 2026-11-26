@@ -13,7 +13,7 @@ pub static BACKEND_LOGIN_API: LazyLock<String> = LazyLock::new(||{
     obfstr!("http://26.228.195.208:3551/api/launcher/login").to_string()
 });
 // Set from 1-42
-pub const FORTNITE_SEASON: i32 = 0;
+pub const FORTNITE_SEASON: i32 = 5;
 // Enable/disable only joinable version
 pub const ENABLE_VERSION_ONLY: bool = false;
 // What version only is permitted
