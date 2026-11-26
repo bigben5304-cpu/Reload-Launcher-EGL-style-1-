@@ -1,3 +1,4 @@
+import logo from "./assets/logo.png";
 import { useEffect, useState } from "react";
 import { invoke } from "@tauri-apps/api/core";
 import { getCurrentWindow } from "@tauri-apps/api/window";
@@ -82,7 +83,7 @@ export default function App() {
       <TitleBar />
       <div className="body">
         <aside className="sidebar">
-          <div className="brand"><div className="logo-mark">H</div><span>HORIZON</span></div>
+          <div className="brand"><img className="logo-img" src={logo} alt="Horizon" /></div>
           <nav>
             {nav.map((n) => (
               <button key={n.id} className={tab === n.id ? "active" : ""} onClick={() => setTab(n.id)}>{n.label}</button>

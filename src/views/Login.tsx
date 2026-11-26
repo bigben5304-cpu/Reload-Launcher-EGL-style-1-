@@ -1,3 +1,4 @@
+import logo from "../assets/logo.png";
 import { useState } from "react";
 import { seasonImage, User } from "../store";
 
@@ -16,7 +17,7 @@ export default function Login({ onLogin, season }: { onLogin: (u: User) => void;
     <div className="login" style={{ backgroundImage: `url(${seasonImage(season)})` }}>
       <div className="login-shade" />
       <form className="login-card" onSubmit={submit}>
-        <div className="logo-mark big">R</div>
+        <img className="logo-img big" src={logo} alt="Horizon" />
         <h1>Sign In</h1>
         <label>Email Address</label>
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} autoFocus />

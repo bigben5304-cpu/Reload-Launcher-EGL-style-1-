@@ -130,3 +130,7 @@ label { display: block; font-size: 11px; letter-spacing: 1.2px; text-transform: 
 
 /* toast */
 .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #2b2b30; border-left: 3px solid var(--blue); padding: 12px 20px; font-size: 13px; box-shadow: 0 8px 30px #000; z-index: 30; }
+
+.brand { justify-content: center; }
+.logo-img { width: 180px; height: auto; display: block; }
+.logo-img.big { width: 150px; margin: 0 auto 14px; }
