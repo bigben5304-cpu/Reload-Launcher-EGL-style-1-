@@ -23,7 +23,7 @@ export default function Login({ onLogin, season }: { onLogin: (u: User) => void;
         <label>Password</label>
         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         <button className="btn-primary wide" type="submit">SIGN IN</button>
-        <p className="muted small">Your account is created on your Reload backend.</p>
+        <p className="muted small">Your account is created on your Horizon backend.</p>
       </form>
     </div>
   );

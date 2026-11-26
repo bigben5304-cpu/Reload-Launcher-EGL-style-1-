@@ -82,7 +82,7 @@ export default function App() {
       <TitleBar />
       <div className="body">
         <aside className="sidebar">
-          <div className="brand"><div className="logo-mark">R</div><span>RELOAD</span></div>
+          <div className="brand"><div className="logo-mark">H</div><span>HORIZON</span></div>
           <nav>
             {nav.map((n) => (
               <button key={n.id} className={tab === n.id ? "active" : ""} onClick={() => setTab(n.id)}>{n.label}</button>

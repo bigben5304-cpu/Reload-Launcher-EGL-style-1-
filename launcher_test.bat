@@ -1,4 +1,4 @@
 @echo off
-title Reload Launcher - Testing
+title Horizon Launcher - Testing
 bun tauri dev
 pause

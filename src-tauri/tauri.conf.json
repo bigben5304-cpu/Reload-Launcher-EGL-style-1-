@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "reload-launcher",
+  "productName": "Horizon Launcher",
   "version": "0.1.0",
-  "identifier": "com.reload.launcher",
+  "identifier": "com.horizon.launcher",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
@@ -13,7 +13,7 @@
     "windows": [
       {
         "label": "main",
-        "title": "Reload Launcher",
+        "title": "Horizon Launcher",
         "width": 1280,
         "height": 720,
         "minWidth": 1000,

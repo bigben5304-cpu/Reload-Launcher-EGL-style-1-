@@ -26,7 +26,7 @@ export default function Home({ builds, selected, online, season, onSelect, onLau
           <span className={`pill ${online ? "on" : online === false ? "off" : ""}`}>
             <i /> {online === null ? "CHECKING…" : online ? "SERVERS ONLINE" : "SERVERS OFFLINE"}
           </span>
-          <h2>{selected ? selected.name : "Welcome to Reload"}</h2>
+          <h2>{selected ? selected.name : "Welcome to Horizon"}</h2>
           <p>{selected ? `Season ${selected.season} · Build ${selected.version || "unknown"}` : "Add a build to your library to start playing."}</p>
           <div className="hero-actions">
             {selected ? (
